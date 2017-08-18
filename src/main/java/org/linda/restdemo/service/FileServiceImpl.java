@@ -15,6 +15,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 
 @Service
+@Transactional
 public class FileServiceImpl implements FileService {
 	final Logger logger = LoggerFactory.getLogger(this.getClass());
 

@@ -8,7 +8,7 @@ import org.linda.restdemo.entity.FileMetadata;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-@Transactional
+
 @Repository
 public class FileMetadataDaoImpl implements FileMetadataDao {
 	@PersistenceContext
